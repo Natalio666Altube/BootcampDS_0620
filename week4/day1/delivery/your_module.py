@@ -42,7 +42,9 @@ def addition(a,b):
 
 
 def moves(transporte):
-    return moves.choice(transporte)    
+    return pd.choice(transporte)    
+    print('Hoy viajaré en:', pd.choice(transporte))
+
 
 def powers(x):
     return x, x**2, x**3, x**4, x**5, x**6
