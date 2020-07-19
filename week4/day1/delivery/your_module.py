@@ -1,6 +1,7 @@
 # This file represents your module.
 # Write the code...
 import numpy as np 
+import pandas as pd
 
 
 def hola():
@@ -43,7 +44,7 @@ def addition(a,b):
 
 def moves(transporte):
     return pd.choice(transporte)    
-    print('Hoy viajaré en:', pd.choice(transporte))
+    #print('Hoy viajaré en:', pd.choice(transporte))
 
 
 def powers(x):
